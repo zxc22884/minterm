@@ -32,11 +32,12 @@
 .restaurants .restaurant{
   width: 30%;
   height: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-right: 2.5%;
   float: left;
 }
 .restaurant .restaurant_photo{
+  position: relative;
   margin-left: 5%;
   width: 90%;
   height: 67%;

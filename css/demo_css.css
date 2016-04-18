@@ -23,6 +23,7 @@
   text-align: center;
 }
 .slip_photo{
+  position: relative;
   width: 100%;
   height: 30%;
   float: left;

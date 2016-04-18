@@ -14,7 +14,7 @@ var main = function() {
       left: '22.5%'
     },2000,'linear',function(){
       $('.menu2').show();
-    $('#iframe1').load("html/demo_html.html");//要改
+    $('#iframe1').load("./html/demo_html.html");//要改
     /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
       $('.menu3').animate({
         left: '55.5%'

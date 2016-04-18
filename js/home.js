@@ -60,7 +60,7 @@ var main = function() {
           width: '33%'
         },2000,function(){
           $('.menu3').show();
-          $('#iframe2').load("./html/demo_html.html");
+          //$('#iframe2').load("./html/demo_html.html");
           $('.menu3').animate({
             left: '66%'
           },1500);
@@ -103,7 +103,7 @@ var main = function() {
           width: '33%'
         },2000,function(){
           $('.menu3').show();
-          $('#iframe2').load("./html/demo_html.html");
+          //$('#iframe2').load("./html/demo_html.html");
           $('.menu3').animate({
             left: '66%'
           },1500);

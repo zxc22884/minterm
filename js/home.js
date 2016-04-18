@@ -6,15 +6,14 @@ var main = function() {
       left: '11%'
     },2000);
     $('.menu2').animate({
-      left: '11%'
+      left: '11%',
+      width: '22%'
     },2000);
     $('.menu').animate({
       left: '11%'
     },2000,'linear',function(){
       $('.menu2').show();
-    $('#iframe').load("./demo_html.html",function(data){ //初始將a.html include div#iframe
-
-    });
+    $('#iframe').load("./demo_html.html");
     /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
       $('.menu3').animate({
         left: '44%'

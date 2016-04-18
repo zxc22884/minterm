@@ -50,7 +50,7 @@ var main = function() {
         left: '11%'
       },2000,'linear',function(){
         $('.menu2').show();
-        $('#iframe1').load("html/introuduce.html");//要改
+        $('#iframe1').load("./html/introuduce.html");//要改
       /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
         $('.menu3').animate({
           left: '44%'
@@ -60,7 +60,7 @@ var main = function() {
           width: '33%'
         },2000,function(){
           $('.menu3').show();
-          $('#iframe2').load("html/demo_html.html");
+          $('#iframe2').load("./html/demo_html.html");
           $('.menu3').animate({
             left: '66%'
           },1500);
@@ -93,7 +93,7 @@ var main = function() {
         left: '11%'
       },2000,'linear',function(){
         $('.menu2').show();
-        $('#iframe1').load("html/order.html");//要改
+        $('#iframe1').load("./html/order.html");//要改
       /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
         $('.menu3').animate({
           left: '44%'
@@ -103,7 +103,7 @@ var main = function() {
           width: '33%'
         },2000,function(){
           $('.menu3').show();
-          $('#iframe2').load("html/demo_html.html");
+          $('#iframe2').load("./html/demo_html.html");
           $('.menu3').animate({
             left: '66%'
           },1500);
@@ -125,7 +125,7 @@ var main = function() {
       left: '22.5%'
     },2000,'linear',function(){
       $('.menu2').show();
-    $('#iframe1').load("html/demo_html.html");//要改
+    $('#iframe1').load("./html/demo_html.html");//要改
     /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
       $('.menu3').animate({
         left: '55.5%'
@@ -149,7 +149,7 @@ var main = function() {
       left: '22.5%'
     },2000,'linear',function(){
       $('.menu2').show();
-    $('#iframe1').load("html/test.html");//要改
+    $('#iframe1').load("./html/test.html");//要改
     /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
       $('.menu3').animate({
         left: '55.5%'
@@ -174,7 +174,7 @@ var main = function() {
       left: '22.5%'
     },2000,'linear',function(){
       $('.menu2').show();
-      $('#iframe1').load("html/about_us.html");//要改
+      $('#iframe1').load("./html/about_us.html");//要改
     /*document.getElementById("iframe").innerHTML='<object type="type/html" data="demo_html.html" ></object>';*/
       $('.menu3').animate({
         left: '55.5%'

@@ -1,0 +1,59 @@
+
+.mid{
+  position: relative;
+  margin: 0px auto;
+  height: 100%;
+  width: 33%;
+}
+.mid img{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  z-index: -1;
+}
+.title{
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 10%;
+  float: left;
+}
+.title h1{
+  text-align: center;
+}
+.slip_photo{
+  width: 100%;
+  height: 30%;
+  float: left;
+}
+.slip_photo img{
+  width: 100%;
+  height: 30%;
+}
+.new{
+  position: relative;
+  width: 100%;
+  height:22.5%;
+  margin-bottom: 5%;
+  float: left;
+}
+.new h2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.new img{
+  width: 30%;
+  height : 40%;
+}
+.three_photo1{
+  margin-left: 2.5%;
+}
+
+.three_photo2{
+  margin-left: 35%;
+}
+.three_photo3{
+  margin-left: 67.5%;
+}

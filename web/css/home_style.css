@@ -17,12 +17,15 @@ body{
   position: absolute;
   z-index: -1;
 }
+
 .menu{
-  position: relative;
-  margin: 0px auto;
+  position: absolute;
+  left:39%;
   height:100%;
   width:22%;
+  z-index: 4;
 }
+
 .menu img{
   height: 100%;
   width: 100%;
@@ -36,8 +39,8 @@ body{
   margin: 0px auto;
   float: left;
 }
-.logo img{
-  position: absolute;
+.logo a img{
+  position: static;
   margin-top: 10px;
   width: 100%;
   height: 100%;
@@ -50,24 +53,30 @@ body{
   height: 58%;
   float: left;
 }
-.choosen ul{
+.choosen .choosen2{
   padding:0px;
   margin: 0px auto;
 }
-.choosen ul li{
-  font-family: Arial;
-  font-weight: bolder;
+.choosen .choosen2 li{
   width: 60%;
   height: 20%;
-  font-size: 150%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 15%;
-  color: #ff3300;
   text-align: center;
 }
-.choosen ul li:first-child{
+.choosen .choosen2 li a{
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 150%;
+  color: #ff3300;
+}
+.choosen .choosen2 li:first-child{
   margin-top: 30%;
+}
+.choosen .choosen2 li:hover{
+  color: black;
+  box-shadow: 5px -3px 3px rgba(0,0,0,0.5),-3px 3px 3px rgba(0,0,0,0.5);
 }
 .icon_img{
   position: relative;
@@ -75,13 +84,18 @@ body{
   height: 8%;
   float: left;
 }
-.icon_img img{
-  width: 22.2%;
-  height: 100%;
-  margin-left: 5.5%;
+.icon_img a img{
+  width: 17.76%;
+  height: 80%;
+  margin-left: 8.5%;
   margin-right: 5.5%;
   float: left;
-  position: relative;
+  text-align:center;
+  position: static;
+}
+.icon_img a img:hover{
+  color: white;
+  box-shadow: 5px -3px 3px rgba(255,255,255,0.5),-3px 3px 3px rgba(255,255,255,0.5);
 }
 .copyright{
   width: 100%;
@@ -94,4 +108,26 @@ body{
   font-size: 50%;
   color: #ffffff;
   text-align:center;
+}
+
+
+
+.menu2{
+  position: absolute;
+  left:11%;
+  height:100%;
+  width:22%;
+  z-index: 2;
+  background-position: right;
+  background-repeat: repeat-y;
+  background-color: #FFFFFF;
+}
+.menu3{
+    position: absolute;
+    left: 39%;
+    height:100%;
+    width:22%;
+    z-index: 1;
+    background-color: #000000;
+    background-position: right;
 }

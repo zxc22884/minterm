@@ -63,11 +63,7 @@ body{
   height: 20%;
   margin-left: 20%;
   margin-right: 20%;
-<<<<<<< HEAD
   margin-top: 10%;
-=======
-  margin-top: 15%;
->>>>>>> refs/remotes/origin/master
   text-align: center;
 }
 .choosen .choosen2 li a{
@@ -119,11 +115,7 @@ body{
 
 .menu2{
   position: absolute;
-<<<<<<< HEAD
   left:39%;
-=======
-  left:11%;
->>>>>>> refs/remotes/origin/master
   height:100%;
   width:22%;
   z-index: 2;

@@ -1,18 +1,18 @@
 
 
-.mid{
+.rs_info_mid{
   position: relative;
   margin: 0;
   height: 100%;
   width: 100%;
 }
-.mid img{
+.rs_info_mid img{
   width: 100%;
   height:100%;
   position: absolute;
   z-index: -1;
 }
-.title{
+.rs_info_title{
   position: relative;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -20,31 +20,31 @@
   height: 10%;
   float: left;
 }
-.title h1{
+.rs_info_title h1{
   text-align: center;
 }
-.about_block{
+.rs_info_about_block{
   width: 50%;
   height: 75%;
   text-align: center;
   float: left;
 }
-.about_block .about_name{
+.rs_info_about_block .rs_info_about_name{
   width: 95%;
   height: 5%;
 }
-.about_block .about_img{
+.rs_info_about_block .rs_info_about_img{
   width: 55%;
   height: 15%;
   margin-bottom: 5%;
   float: left;
 }
-.about_img img{
+.rs_info_about_img img{
   width: 20%;
   height: 10%;
   border-radius: 100%;
 }
-.about_block .about_context{
+.rs_info_about_block .rs_info_about_context{
   width: 80%;
   height: 60%;
   float: left;

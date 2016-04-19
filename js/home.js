@@ -60,7 +60,7 @@ var main = function() {
           width: '33%'
         },2000,function(){
           $('.menu3').show();
-          $('#iframe2').load("./html/child_order_html/res1.html");
+          $('#iframe2').load("./html/child_introduce/intr1.html");
           $('.menu3').animate({
             left: '66%'
           },1500);

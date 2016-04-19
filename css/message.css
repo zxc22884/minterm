@@ -1,5 +1,4 @@
 
-
 .mid{
   position: relative;
   margin: 0px auto;
@@ -23,37 +22,39 @@
 .title h1{
   text-align: center;
 }
-.context{
-  width: 100%;
-  height: 30%;
+.message_background{
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  margin-bottom: 5%;
   float: left;
+}
+.message_background .board{
+  width: 80%;
+  height: 50%;
+}
+.message_background .sp4{
+  width: 30%;
+  height: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
+  float: left;
+}
+.message_pull{
+  width: 80%;
+  height: 25%;
+  margin-left: 10%;
   text-align: center;
 }
-.information{
+.message_pull .write{
   width: 100%;
-  height: 45%;
-  float: left;
-}
-label{
-  margin-left: 10%;
-}
-input {
-  display: block;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  border-radius: 3px;
-  background-color: rgb(232, 214, 137);
-
-}
-.long{
-  display: block;
   height: 100px;
-  width: 80%;
-  margin-left: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 3px;
-  background-color: rgb(232, 214, 137);
+  background-color: rgb(227, 123, 201);
+  display: block;
 }
-.submit{
+.message_submit{
   margin: 0 auto;
 }

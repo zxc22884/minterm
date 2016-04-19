@@ -19,10 +19,8 @@
   height: 10%;
   float: left;
 }
-.title img{
-  width: 100%;
-  height: 100%;
-  position: relative;
+.title h1{
+  text-align: center;
 }
 .slip_photo{
   width: 80%;
@@ -71,30 +69,24 @@
   margin-bottom: 5%;
   float: left;
 }
-.new .word{
+.new h2{
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-right: 50%;
-  width:50%;
-  height: 20%;
-  float: left;
-  position: relative;
+  text-align: center;
 }
 .new img{
   width: 30%;
   height : 40%;
-  float: left;
-  position: relative;
 }
 .three_photo1{
-  margin-left: 2%;
+  margin-left: 2.5%;
 }
 
 .three_photo2{
-  margin-left: 2%;
+  margin-left: 35%;
 }
 .three_photo3{
-  margin-left: 2%;
+  margin-left: 67.5%;
 }
 .shadow{
   border: white 3px solid;

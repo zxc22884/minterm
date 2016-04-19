@@ -1,8 +1,16 @@
+body{
+  text-align: left;
+  width: 100%;
+  height: 955px;
+  margin: 0px auto;
+  background-color: white;
+}
+
 .mid{
   position: relative;
   margin: 0px auto;
   height: 100%;
-  width: 100%;
+  width: 33%;
 }
 .mid img{
   width: 100%;

@@ -56,7 +56,7 @@
   float: left;
 }
 input{
-  display: block;
+  display: inline-block;
 }
 #name{
   width:10px;

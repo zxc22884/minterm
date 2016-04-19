@@ -55,15 +55,13 @@ body{
   float: left;
 }
 .choosen .choosen2{
-  padding:0px;
-  margin: 0px auto;
+  padding: 0;
+  margin: 0;
 }
 .choosen .choosen2 li{
-  width: 60%;
-  height: 20%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 10%;
+  width: 100%;
+  height: 22%;
+  margin-top: 5%;
   text-align: center;
 }
 .choosen .choosen2 li a{
@@ -72,8 +70,13 @@ body{
   font-size: 150%;
   color: #ff3300;
 }
+.choosen .choosen2 li a img{
+  width:100%;
+  height:100%;
+  position: relative;
+}
 .choosen .choosen2 li:first-child{
-  margin-top: 30%;
+  margin-top: 20%;
 }
 .choosen .choosen2 li:hover{
   color: black;

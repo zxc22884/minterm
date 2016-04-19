@@ -36,7 +36,7 @@
 }
 .rs_about_text{
   width: 80%;
-  height:30%;
+  height:20%;
   margin-left: 10%;
   margin-right: 10%;
   float: left;
@@ -51,6 +51,7 @@
 .rs_phone{
   width: 80%;
   height:10%;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   float: left;
@@ -69,7 +70,7 @@
 .rs_address{
   width: 80%;
   height:10%;
-  
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   float: left;

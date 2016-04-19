@@ -18,8 +18,10 @@
   height: 10%;
   float: left;
 }
-.title h1{
-  text-align: center;
+.title img{
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .restaurants{
   width: 95%;
@@ -47,6 +49,11 @@
   border: white 3px solid;
   box-shadow: 6px 12px 2px rgba(87, 80, 75, 0.4);
   position: static;
+}
+.restaurant_photo a img:hover{
+  position: relative;
+  bottom: 5px;
+  right: 5px;
 }
 .restaurant .restaurant_name{
   width: 100%;

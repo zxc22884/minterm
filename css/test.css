@@ -1,6 +1,8 @@
+
+
 .mid{
   position: relative;
-  margin: 0;
+  margin: 0px auto;
   height: 100%;
   width: 100%;
 }
@@ -18,8 +20,10 @@
   height: 10%;
   float: left;
 }
-.title h1{
-  text-align: center;
+.title img{
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .context{
   width: 100%;
@@ -40,7 +44,7 @@ input {
   margin-left: 10%;
   margin-bottom: 5%;
   border-radius: 3px;
-  background-color: rgb(123, 224, 227);
+  background-color: rgb(232, 214, 137);
 
 }
 .long{
@@ -50,7 +54,7 @@ input {
   margin-left: 10%;
   margin-bottom: 5%;
   border-radius: 3px;
-  background-color: rgb(227, 123, 201);
+  background-color: rgb(232, 214, 137);
 }
 .submit{
   margin: 0 auto;

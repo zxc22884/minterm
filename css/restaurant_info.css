@@ -46,10 +46,11 @@
   padding: 0;
   font-size: 100%;
   text-align: left;
+  display: inline-block;
 }
 .rs_phone{
   width: 80%;
-  height:20%;
+  height:10%;
   margin-left: 10%;
   margin-right: 10%;
   float: left;
@@ -62,11 +63,13 @@
   padding: 0;
   font-size: 100%;
   text-align: left;
+  display: inline-block;
 }
 
 .rs_address{
   width: 80%;
-  height:20%;
+  height:10%;
+  
   margin-left: 10%;
   margin-right: 10%;
   float: left;
@@ -79,4 +82,5 @@
   padding: 0;
   font-size: 100%;
   text-align: left;
+  display: inline-block;
 }

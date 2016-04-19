@@ -55,3 +55,10 @@
   margin-left: 10%;
   float: left;
 }
+input{
+  display: block;
+}
+#name{
+  width:10px;
+  height:5px;
+}

@@ -14,7 +14,7 @@
 .ch_title{
   position: relative;
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 5.5%;
   width: 100%;
   height: 10%;
   float: left;
@@ -32,7 +32,8 @@
 .ch_restaurants .ch_restaurant{
   width: 30%;
   height: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
+  margin-top: 7.5%;
   margin-right: 2.5%;
   float: left;
 }

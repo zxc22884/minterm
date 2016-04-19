@@ -1,0 +1,57 @@
+.mid{
+  position: relative;
+  margin: 0px auto;
+  height: 100%;
+  width: 100%;
+}
+.mid img{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  z-index: -1;
+}
+.title{
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5.5%;
+  width: 100%;
+  height: 10%;
+  float: left;
+}
+.title h1{
+  text-align: center;
+}
+.restaurants{
+  width: 95%;
+  height: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+.restaurants .restaurant{
+  width: 30%;
+  height: 20%;
+  margin-right: 2.5%;
+  margin-top: 5%;
+  float: left;
+}
+.restaurant .restaurant_photo{
+  margin-left: 5%;
+  width: 90%;
+  height: 67%;
+  float: left;
+}
+.restaurant_photo a img{
+  width: 90%;
+  height: 90%;
+  border: white 3px solid;
+  box-shadow: 6px 12px 2px rgba(87, 80, 75, 0.4);
+  position: static;
+}
+.restaurant .restaurant_name{
+  width: 100%;
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 25%;
+  float: left;
+}

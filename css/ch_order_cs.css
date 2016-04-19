@@ -1,0 +1,57 @@
+.ch_mid{
+  position: relative;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.ch_mid img{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  z-index: -1;
+}
+.ch_title{
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 5.5%;
+  width: 100%;
+  height: 10%;
+  float: left;
+}
+.ch_title h1{
+  text-align: center;
+}
+.ch_restaurants{
+  width: 95%;
+  height: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+.ch_restaurants .ch_restaurant{
+  width: 30%;
+  height: 20%;
+  margin-bottom: 0%;
+  margin-top: 7.5%;
+  margin-right: 2.5%;
+  float: left;
+}
+.ch_restaurant .ch_restaurant_photo{
+  margin-left: 5%;
+  width: 90%;
+  height: 67%;
+  float: left;
+}
+.ch_restaurant_photo img{
+  width: 25%;
+  height: 10%;
+  border: white 3px solid;
+  box-shadow: 6px 12px 2px rgba(87, 80, 75, 0.4);
+}
+.ch_restaurant .ch_restaurant_name{
+  width: 100%;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  float: left;
+}

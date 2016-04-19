@@ -1,16 +1,10 @@
-body{
-  text-align: left;
-  width: 100%;
-  height: 955px;
-  margin: 0px auto;
-  background-color: white;
-}
+
 
 .mid{
   position: relative;
   margin: 0px auto;
   height: 100%;
-  width: 33%;
+  width: 100%;
 }
 .mid img{
   width: 100%;
@@ -26,8 +20,10 @@ body{
   height: 10%;
   float: left;
 }
-.title h1{
-  text-align: center;
+.title img{
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .context{
   width: 100%;

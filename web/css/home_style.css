@@ -47,6 +47,11 @@ body{
   height: 100%;
   z-index: -1;
 }
+.logo a img:hover{
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
 .choosen{
   position: relative;
   margin-left: 13%;

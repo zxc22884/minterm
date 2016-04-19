@@ -1,27 +1,9 @@
-body{
-  text-align: left;
-  width: 100%;
-  height: 955px;
-  margin: 0px auto;
-  background-color: #ff00ff;
-}
-.background{
-  margin: 0px auto;
-  position: relative;;
-  width: 100%;
-  height: 955px;
-}
-.background img{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
+
 .mid{
   position: relative;
-  margin: 0px auto;
+  margin: 0;
   height: 100%;
-  width: 33%;
+  width: 100%;
 }
 .mid img{
   width: 100%;

@@ -6,9 +6,8 @@
   width: 100%;
 }
 .mid img{
-  left: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
   position: absolute;
   z-index: -1;
 }
@@ -26,16 +25,43 @@
 .slip_photo{
   width: 100%;
   height: 30%;
+  overflow: hidden;
   float: left;
 }
-.slip_photo img{
+.slip_photo a img{
   width: 100%;
-  height: 30%;
+  height: 100%;
+  position: static;
+}
+.slide{
+  display: none;
+}
+.active_slide{
+  display: block;
+}
+.active{
+  width:100%;
+  height: 5%;
+  float: left;
+}
+.active a img{
+  width: 20px;
+  height: 20px;
+  position: static;
+}
+.prev{
+  margin-left: 45%;
+  margin-top: 5px;
+
+}
+.next{
+  margin-right: 45%;
+  margin-top: 5px;
 }
 .new{
   position: relative;
   width: 100%;
-  height:22.5%;
+  height:20%;
   margin-bottom: 5%;
   float: left;
 }

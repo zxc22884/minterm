@@ -51,10 +51,8 @@
   height: 60%;
   float: left;
 }
-.about_block .about_context p{
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  display: inline-block;
+.about_block .about_context img{
+  position: relative;
+  height: 100%;
+  width: 50%;
 }

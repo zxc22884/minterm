@@ -51,8 +51,10 @@
   height: 60%;
   float: left;
 }
-..about_block .about_context p{
+.about_block .about_context p{
   text-align: left;
   margin: 0;
   padding: 0;
+  font-size: 100%;
+  display: inline-block;
 }
